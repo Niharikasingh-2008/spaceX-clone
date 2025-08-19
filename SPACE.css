@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,Verdana, sans-serif, Tahoma, sans-serif;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color:black;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 2;
+    position: fixed;
+    top:0px;
+    
+}
+.logo{
+    height: 100px;
+    width: 20%;
+    margin-left: 4.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.navoptions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70%;
+margin-right: 4.5rem;
+margin-left: 1rem;
+  list-style-type: none;
+}
+
+.options {margin-right: 1.5rem;
+
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: #fff;
+  transition: all 0.2s linear 0s;
+}
+
+.options2{margin-right: 1rem;
+width: 10%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.shop{font-size: 0.72rem;
+    font-weight: 800;
+
+
+}
+.menuicon{height: 0.72rem;
+    font-weight: 700;
+    margin-left: 0.4rem;
+}
+.mars{
+    width: 100%;
+    display: block;
+}
+.text{color: #fff;
+    font-weight: 600;
+    position:absolute;
+    bottom: 10rem;
+  opacity:1;
+  font-size: 1.2rem;
+  margin-right:2.625rem;
+  left: 100px;
+  animation: move 1.2s ease-in 0s 1 reverse;
+}
+.button1{color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid #fff;
+height:3.3125rem;
+width: 10.7815rem;
+margin-top: 1rem;
+transition: all 1.2s linear 0s ;
+}
+.button1:hover{
+  background-color: white;
+  color: black;
+}
+.selecticon{position: absolute;
+  bottom: 1.7rem;
+  left:45.25rem ;
+  color: #fff;
+  transform: rotate(90deg);
+  font-size: 1.5rem;
+  opacity: 0;
+  animation: transition 1.5s ease 0s infinite normal;
+  }
+
+@keyframes transition{
+from{opacity: 0;}
+to{
+  opacity: 1;
+}
+}
+@keyframes move{
+  from{position: absolute;
+     opacity:0;}
+  to{
+    position: absolute;
+    transform: translateY(25.125rem);
+
+opacity:1;
+  }
+}
+.ship{
+  position: relative;
+      width: 100%;
+    display: block;
+}
+.text2{
+  color: #fff;
+    font-weight: 600;
+    position:absolute;
+    bottom: 10rem;
+  opacity:0;
+  font-size: 1.2rem;
+  margin-right:2.625rem;
+  left: 100px;
+  animation-fill-mode: forwards;
+ animation: move 1.2s ease-in 0s 1 reverse;
+}
+.selecticon2{
+  position: absolute;
+  bottom: 1.7rem;
+  left:45.25rem ;
+  color: #fff;
+  transform: rotate(90deg);
+  font-size: 1.5rem;
+  opacity: 0;
+  animation: transition 1.5s ease 0s infinite normal;
+}
+/* .ship:hover .text2{opacity: 1;
+   animation: move 1.2s ease-in 0s 1 reverse;
+} */
+
+.button2{color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid #fff;
+height:3.3125rem;
+width: 10.7815rem;
+margin-top: 1rem;
+transition: all 1.2s linear 0s ;
+}
+.button2:hover{
+  background-color: white;
+  color: black;
+}
+  .blast{
+      position: relative;
+      width: 100%;
+    display: block;
+  }
+.text3{
+   color: #fff;
+    font-weight: 600;
+    position:absolute;
+    bottom: 10rem;
+  opacity:0;
+  font-size: 1.2rem;
+  margin-right:2.625rem;
+  left: 100px;
+  /* animation: move 1.2s ease-in 0s 1 reverse; */
+}
+.selecticon3{
+  position: absolute;
+  bottom: 1.7rem;
+  left:45.25rem ;
+  color: #fff;
+  transform: rotate(90deg);
+  font-size: 1.5rem;
+  opacity: 0;
+  animation: transition 1.5s ease 0s infinite normal;
+}
+/* .blast:hover .text3{opacity: 1;
+   animation: move 1s ease-in 0s 1 reverse;
+} */
+
+.launch{
+  height: 800px;
+}
+.footer{height:80px;
+  width: 100%;
+  display: flex;
+justify-content: center;
+align-items: center;
+  background-color: black;
+  color: #fff;
+}
+.lines{
+  font-size: 10px;
+  
+}
+.l1{
+margin-right: 2rem;
+}
+.l2{
+  margin-right: 0.5rem;
+}
+.l3{
+  margin-left: 2rem;
+}
